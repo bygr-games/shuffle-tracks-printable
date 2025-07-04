@@ -1,0 +1,71 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+}
+
+game-root {
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 2mm;
+  border-color: #f4f4f4;
+  border-radius: 5mm;
+  font-size: 12pt;
+  position: relative;
+  display: inline-block;
+  margin: 1mm;
+  background-color: #f4f4f4;
+  color: #0d0721;
+}
+.pokerCard {
+  height: 88mm;
+  width: 63mm;
+}
+.bridgeCard {
+  height: 88mm;
+  width: 63mm;
+}
+.debug {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.layerImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.red {
+  background-color: #ff0000;
+}
+.blue {
+  background-color: #0000ff;
+}
+.green {
+  background-color: #00ff00;
+}
+.yellow {
+  background-color: #ffff00;
+}
+.purple {
+  background-color: #800080;
+}
+.orange {
+  background-color: #ffa500;
+}
+.cyan {
+  background-color: #00ffff;
+}
