@@ -86,7 +86,8 @@ After a round ends, reset the board as follows:
 2. **Remove Starting Column:** Set aside the cards from the current Starting Column and shuffle them
 3. **Swap Starting Column:** Move the Destination Column into the Starting Column's position
 4. **Set Up New Destination Column:** Place the shuffled station cards from **Step 2** as the new Destination Column. If any lanes have the same Company at both ends, resolve conflicts using the **Setup -> Solving Conflicts** rules.
-5. **Start**: The player who lost the last round goes first. If there is more than one, the one with fewer points starts. If there is still a tie — Rock, Paper, Scissors settles it.
+5. **Discard Cards:** Each player may discard up to 2 cards from their hand and draw replacements from the Rail Deck.
+6. **Start**: The player who lost the last round goes first. If there is more than one, the one with fewer points starts. If there is still a tie — Rock, Paper, Scissors settles it.
 
 ## End of the Game
 
