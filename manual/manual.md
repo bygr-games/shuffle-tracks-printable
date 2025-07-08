@@ -24,21 +24,30 @@ Be the Company with most points after 3 rounds. Earn points by connecting to you
 
 <-- REFERENCE IMAGE -->
 
-1. **Choose Company:** Each player selects a Company and takes the matching token
-2. **Set Up Rail Deck:** Shuffle all Rail Cards and place them face down in a draw pile.
-3. **Deal Rail Cards:** Each player draws 4 cards from the Rail Deck.
-4. **Set Up Starting Column:** Shuffle one station card for each Player's Company and place them in a straight line.
-5. **Set Up Destination Column:** Do the same with another set of station cards and place them in a line parallel to the Starting Column.
+1.  **Choose Company:** Each player selects a Company and takes the matching token
+2.  **Set Up Rail Deck:** Shuffle all Rail Cards and place them face down in a draw pile.
+3.  **Deal Rail Cards:** Each player draws 4 cards from the Rail Deck.
+4.  **Set Up Starting Column:** Shuffle one station card for each Player's Company and place them in a straight line.
+5.  **Set Up Destination Column:** Do the same with another set of station cards and place them in a line parallel to the Starting Column.
 
-   - Leave space between the columns for the Railway Area — 4 Rail Cards long.
-   - **Solving Conflicts:** Each lane (straight path between a start and destination station) must contain two different Companies. If a lane has the Company at both ends:
+    - Leave space between the columns for the Railway Area — 4 Rail Cards long.
+    - **Solving Conflicts:** Each lane (straight path between a start and destination station) must contain two different Companies. If a lane has the Company at both ends:
 
-     - Swap the destination card with the destination of the next Company alphabetically.
-     - Repeat until all lanes contain two different companies.
+      - Swap the destination card with the destination of the next Company alphabetically.
+      - Repeat until all lanes contain two different companies.
 
-     Reference Company names: A, B, C, D, E, F
+        Company Names Reference:
 
-6. **Start the Game!:** In your first match, the player who most recently traveled by train starts. In later matches, the player with the fewest points from the previous match starts.
+        | Name              | Colour |
+        | ----------------- | :----: |
+        | Ashfield Express  |  Red   |
+        | Baskerville Meows | Orange |
+        | Calico & Co       | Yellow |
+        | Dustpaw Railworks | Green  |
+        | Embercat Lines    |  Blue  |
+        | Fizz Freight      | Violet |
+
+6.  **Start the Game!:** In your first match, the player who most recently traveled by train starts. In later matches, the player with the fewest points from the previous match starts.
 
 <-- SWAP 2 LANES REFERENCE IMAGE -->
 
