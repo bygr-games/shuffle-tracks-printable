@@ -14,7 +14,7 @@ export class Game extends KTUComponent {
   }
 
   render(): Element {
-    const elements: Element[] = [];
+    let elements: Element[] = [];
     let count1 = 0;
     let count2 = 0;
     let count3 = 0;
@@ -77,6 +77,12 @@ export class Game extends KTUComponent {
     count2++;
     elements.push(new CurveCard(["L-B", "R-T"]).render());
     count2++;
+    elements.push(new CurveCard(["L-B", "R-B"]).render());
+    count2++;
+    elements.push(new CurveCard(["L-B", "L-R"]).render());
+    count2++;
+    elements.push(new CurveCard(["R-B", "L-R"]).render());
+    count2++;
     elements.push(new BridgeCard().render());
     count2++;
     for (let i = 1; i <= this.combinations; i++) {
@@ -104,6 +110,13 @@ export class Game extends KTUComponent {
     count2++;
     elements.push(new CurveCard(["L-B", "R-T"]).render());
     count2++;
+    elements.push(new CurveCard(["L-B", "R-B"]).render());
+    count2++;
+    elements.push(new CurveCard(["L-B", "L-R"]).render());
+    count2++;
+    elements.push(new CurveCard(["R-B", "L-R"]).render());
+    count2++;
+
     elements.push(new BridgeCard().render());
     count2++;
     // NON-DEAD END CARDS AGAIN
@@ -132,6 +145,13 @@ export class Game extends KTUComponent {
     count3++;
     elements.push(new CurveCard(["L-B", "R-T"]).render());
     count3++;
+    elements.push(new CurveCard(["L-B", "R-B"]).render());
+    count2++;
+    elements.push(new CurveCard(["L-B", "L-R"]).render());
+    count2++;
+    elements.push(new CurveCard(["R-B", "L-R"]).render());
+    count2++;
+
     elements.push(new BridgeCard().render());
     count3++;
     // NON-DEAD END CARDS AGAIN
@@ -165,6 +185,34 @@ export class Game extends KTUComponent {
     for (let i = 0; i < this.colors.length; i++) {
       elements.push(new StationCard(this.colors[i]).render());
     }
+
+    elements = [];
+    elements.push(new CurveCard(["L-B", "R-B"]).render());
+    count2++;
+    elements.push(new CurveCard(["L-B", "L-R"]).render());
+    count2++;
+    elements.push(new CurveCard(["R-B", "L-R"]).render());
+    count2++;
+
+    elements.push(new CurveCard(["L-B", "R-B"]).render());
+    count2++;
+    elements.push(new CurveCard(["L-B", "L-R"]).render());
+    count2++;
+    elements.push(new CurveCard(["R-B", "L-R"]).render());
+    count2++;
+
+    elements.push(new CurveCard(["L-B", "R-B"]).render());
+    count2++;
+    elements.push(new CurveCard(["L-B", "L-R"]).render());
+    count2++;
+    elements.push(new CurveCard(["R-B", "L-R"]).render());
+    count2++;
+    elements.push(new BridgeCard().render());
+    count3++;
+    elements.push(new BridgeCard().render());
+    count3++;
+    elements.push(new BridgeCard().render());
+    count3++;
 
     return (
       <div>
