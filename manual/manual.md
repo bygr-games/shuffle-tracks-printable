@@ -45,7 +45,7 @@ Be the Company with most points after 3 rounds. Earn points by connecting to you
         | Calico & Co       | Yellow |
         | Dustpaw Railworks | Green  |
         | Embercat Lines    |  Blue  |
-        | Fizz Freight      | Violet |
+        | Furball Freight   | Violet |
 
 6.  **Start the Game!:** In your first match, the player who most recently traveled by train starts. In later matches, the player with the fewest points from the previous match starts.
 

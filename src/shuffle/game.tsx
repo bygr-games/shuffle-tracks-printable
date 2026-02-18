@@ -4,10 +4,20 @@ import { TrackCard } from "./track_card";
 import { CurveCard } from "./curve_card";
 import { StationCard } from "./station_card";
 import { BridgeCard } from "./bridge_card";
+import { TunnelCard } from "./tunnel_card";
 
 export class Game extends KTUComponent {
   combinations: number = 15;
-  colors: string[] = ["red", "green", "blue", "yellow", "purple", "cyan"];
+  colors: string[] = [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "violet",
+    "black",
+    "white",
+  ];
 
   constructor() {
     super();
@@ -176,43 +186,20 @@ export class Game extends KTUComponent {
         }
       }
     }
-    for (let i = 0; i < this.colors.length; i++) {
-      elements.push(new StationCard(this.colors[i]).render());
-    }
-    for (let i = 0; i < this.colors.length; i++) {
-      elements.push(new StationCard(this.colors[i]).render());
-    }
-    for (let i = 0; i < this.colors.length; i++) {
-      elements.push(new StationCard(this.colors[i]).render());
-    }
-
     elements = [];
-    elements.push(new CurveCard(["L-B", "R-B", "T-0"]).render());
-    count2++;
-    elements.push(new CurveCard(["L-B", "L-R", "T-0"]).render());
-    count2++;
-    elements.push(new CurveCard(["R-B", "L-R", "T-0"]).render());
-    count2++;
-
-    elements.push(new CurveCard(["L-B", "R-B", "T-0"]).render());
-    count2++;
-    elements.push(new CurveCard(["L-B", "L-R", "T-0"]).render());
-    count2++;
-    elements.push(new CurveCard(["R-B", "L-R", "T-0"]).render());
-    count2++;
-
-    elements.push(new CurveCard(["L-B", "R-B", "T-0"]).render());
-    count2++;
-    elements.push(new CurveCard(["L-B", "L-R", "T-0"]).render());
-    count2++;
-    elements.push(new CurveCard(["R-B", "L-R", "T-0"]).render());
-    count2++;
-    elements.push(new BridgeCard().render());
-    count3++;
-    elements.push(new BridgeCard().render());
-    count3++;
-    elements.push(new BridgeCard().render());
-    count3++;
+    elements.push(new TunnelCard().render());
+    count5++;
+    elements.push(new TunnelCard().render());
+    count5++;
+    for (let i = 0; i < this.colors.length; i++) {
+      elements.push(new StationCard(this.colors[i]).render());
+    }
+    for (let i = 0; i < this.colors.length; i++) {
+      elements.push(new StationCard(this.colors[i]).render());
+    }
+    for (let i = 0; i < this.colors.length; i++) {
+      elements.push(new StationCard(this.colors[i]).render());
+    }
 
     return (
       <div>
